@@ -1,11 +1,10 @@
-import MyForm from "./MyForm";
+//import MyForm from "./MyForm";
 import MyP from "./MyP";
 
 function Login(){
   return(
     <>
     <MyP>Primeiro site</MyP>
-    <MyForm></MyForm>
     </>
   )
 }
