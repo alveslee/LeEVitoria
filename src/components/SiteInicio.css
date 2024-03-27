@@ -1,0 +1,83 @@
+.logo {
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo input[type="text"] {
+    margin: 0 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.logo button {
+    padding: 5px 10px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.main {
+    background-color: lightpink;
+    padding: 20px;
+}
+
+.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.receita {
+    background-color: #ffe4e1;
+    width: calc(33.33% - 20px); /* 3 columns with some space between */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.receita h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.receita p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #ff69b4;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}

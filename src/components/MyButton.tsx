@@ -1,4 +1,5 @@
 import { ReactNode } from "react"
+import './MyButton.css'
 
 interface Props{
     children: ReactNode; //ReacNode - tem retorno
