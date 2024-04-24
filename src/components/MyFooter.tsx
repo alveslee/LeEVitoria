@@ -1,4 +1,6 @@
-import MyInput from "./MyInput";
+//import MyInput from "./MyInput";
+import 'src/assets/logo-site.png'
+
 
 function MyFooter(){
     return(
